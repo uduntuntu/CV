@@ -1,7 +1,7 @@
 <svg viewBox="-1000 -1000 2000 2000" xmlns="http://www.w3.org/2000/svg">
   <rect x="-1000" y="-1000" width="2000" height="2000" fill="white" />
   <circle cx="0" cy="0" r="980" stroke="none" stroke-width="0" fill="black" />
-  <circle cx="0" cy="0" r="900" stroke="#2D2D2D" stroke-width="140" fill="none" />
+  <!-- <circle cx="0" cy="0" r="900" stroke="#2D2D2D" stroke-width="140" fill="none" /> -->
   <circle cx="0" cy="0" r="750" stroke="#9B59D0" stroke-width="140" fill="none" />
   <circle cx="0" cy="0" r="600" stroke="#FFF8E7" stroke-width="140" fill="none" />
   <circle cx="0" cy="0" r="450" stroke="#FFF433" stroke-width="140" fill="none" />

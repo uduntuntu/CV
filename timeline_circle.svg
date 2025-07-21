@@ -6,4 +6,121 @@
   <circle cx="0" cy="0" r="600" stroke="#FFF8E7" stroke-width="140" fill="none" />
   <circle cx="0" cy="0" r="450" stroke="#FFF433" stroke-width="140" fill="none" />
   <circle cx="0" cy="0" r="300" stroke="#DDDDDD" stroke-width="140" fill="#DDDDDD" />
+
+   <!-- Use transform: rotate to place each arc, but do NOT rotate the text -->
+  <g>
+    <path id="arc2000" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"/>
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2000" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2000</textPath>
+    </text>
+    <path id="arc2001" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(13.846 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2001" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2001</textPath>
+    </text>
+    <path id="arc2002" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(27.692 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2002" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2002</textPath>
+    </text>
+    <path id="arc2003" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(41.538 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2003" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2003</textPath>
+    </text>
+    <path id="arc2004" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(55.384 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2004" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2004</textPath>
+    </text>
+    <path id="arc2005" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(69.23 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2005" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2005</textPath>
+    </text>
+    <path id="arc2006" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(83.076 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2006" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2006</textPath>
+    </text>
+    <path id="arc2007" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(96.922 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2007" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2007</textPath>
+    </text>
+    <path id="arc2008" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(110.768 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2008" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2008</textPath>
+    </text>
+    <path id="arc2009" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none"
+      transform="rotate(124.614 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2009" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2009</textPath>
+    </text>
+    <path id="arc2010" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(138.46 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2010" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2010</textPath>
+    </text>
+    <path id="arc2011" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(152.306 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2011" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2011</textPath>
+    </text>
+    <path id="arc2012" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(166.152 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2012" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2012</textPath>
+    </text>
+    <path id="arc2013" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(179.998 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2013" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2013</textPath>
+    </text>
+    <path id="arc2014" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(193.844 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2014" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2014</textPath>
+    </text>
+    <path id="arc2015" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(207.69 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2015" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2015</textPath>
+    </text>
+    <path id="arc2016" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(221.536 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2016" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2016</textPath>
+    </text>
+    <path id="arc2017" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(235.382 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2017" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2017</textPath>
+    </text>
+    <path id="arc2018" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(249.228 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2018" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2018</textPath>
+    </text>
+    <path id="arc2019" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(263.074 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2019" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2019</textPath>
+    </text>
+    <path id="arc2020" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(276.92 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2020" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2020</textPath>
+    </text>
+    <path id="arc2021" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(290.766 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2021" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2021</textPath>
+    </text>
+    <path id="arc2022" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(304.612 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2022" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2022</textPath>
+    </text>
+    <path id="arc2023" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(318.458 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2023" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2023</textPath>
+    </text>
+    <path id="arc2024" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(332.304 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2024" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2024</textPath>
+    </text>
+    <path id="arc2025" d="M 900 0 A 900 900 0 0 1 874.2 215.6" stroke="#2D2D2D"  stroke-width="140" fill="none" transform="rotate(346.15 0 0)" />
+    <text font-size="40" font-family="sans-serif" fill="#FFF8E7">
+      <textPath href="#arc2025" startOffset="50%" text-anchor="middle" dominant-baseline="middle">2025</textPath>
+    </text>
+  </g>
 </svg>

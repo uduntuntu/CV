@@ -41,7 +41,7 @@ elements = [
 
 # Add arcs and texts in the same loop, using href for textPath
 i = 0
-for year in range(2000, 2025):
+for year in range(2000, 2026):
     start_deg = i * (360 / 26)
     sweep_deg = 360 / 26
     arc_id = f"arc{year}"
@@ -58,7 +58,7 @@ for year in range(2000, 2025):
     )
     elements.append(
         svg.Text(
-            svg.TextPath(
+            text = svg.TextPath(
                 href=f"#{arc_id}",
                 startOffset="50%",
                 text=f"{year}",
@@ -77,7 +77,7 @@ canvas = svg.SVG(
     elements=elements,
 )
 
-with open("test.svg", "w") as f:
-    f.write(canvas.to_string())
+with open("timeline_circle.svg", "w") as f:
+    f.write(canvas.as_str())
 
 print("SVG file 'test.svg' created successfully.")

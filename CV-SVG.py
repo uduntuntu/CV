@@ -1,5 +1,12 @@
 import math
 import svg
+from datetime import date
+import xml.dom.minidom
+import yaml
+
+current_year = date.today().year
+years_count = current_year - 2000 + 1
+output_file = "timeline_circle.svg"
 
 def arc_path(cx, cy, r, start_deg, sweep_deg):
     # Calculate start and end points
@@ -41,9 +48,9 @@ elements = [
 
 # Add arcs and texts in the same loop, using href for textPath
 i = 0
-for year in range(2000, 2026):
-    start_deg = i * (360 / 26)
-    sweep_deg = 360 / 26
+for year in range(2000, current_year + 1):
+    start_deg = i * (360 / years_count)
+    sweep_deg = 360 / years_count
     arc_id = f"arc{year}"
     i += 1
     # Arc path
@@ -77,7 +84,9 @@ canvas = svg.SVG(
     elements=elements,
 )
 
-with open("timeline_circle.svg", "w") as f:
-    f.write(canvas.as_str())
+with open(output_file, "w") as f:
+    raw_xml = canvas.as_str()
+    pretty_xml = xml.dom.minidom.parseString(raw_xml).toprettyxml(indent="  ")
+    f.write(pretty_xml)
 
-print("SVG file 'test.svg' created successfully.")
+print(f'SVG file ({output_file}) created successfully.')

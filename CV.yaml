@@ -1,0 +1,57 @@
+- timeline_start: 2000-01-01
+
+- jobs:
+  - company: "Suomen Rauhanliitto – Finlands Fredsförbund ry"
+    start_date: 2021-09-30
+    end_date: 2024-03-31
+    title-fi: "Verkon pääkäyttäjä"
+    title-en: "Network Administrator"
+    description-fi: "Ubiquiti-teknologialla toteutetun lähiverkon konfigurointi, valvonta ja vianselvitys. Tarvittaessa verkkoon liitettyjen palveluiden kehittäminen. Osa-aikainen, max. 4 h/kk."
+  - company: "CGI Suomi Oy"
+    start_date: 2018-10-09
+    end_date: 2018-12-11
+    title-fi: "Windows-asiantuntija"
+    title-en: "Systems Specialist"
+    description-fi: |
+      Toimin osana jatkuvan palvelun tiimiä, jonka vastuulla olivat asiakasympäristöjen Windows Server käyttöjärjestelmäversioita käyttävät palvelimet. Käytössä olivat mm. EMC Networker, BMC BladeLogic Server Automation.
+
+      Koodasin myös Excel-raportointiin pienen palikan .NET Core kirjastoja hyödyntäen. Sovellus rakensi 40 välilehden pivot-taulukkomuotoisen raportoinnin yli tuhannen palvelimen päivitystilanteesta yksittäiset Windowspäivitykset yksilöiden. Toimin tiukimmillaan KATAKRI taso 2 kovennettujen ympäristöjen pääkäyttäjänä.
+
+- schools:
+  - school-fi: "Metropolia Ammattikorkeakoulu"
+    school-en: "Metropolia University of Applied Sciences"
+    start_date: 2015-08-20
+    end_date: 2021-03-03
+    degree-fi: "Insinööri (AMK)"
+    degree-en: "Bachelor of Engineering"
+    field_of_study-fi: "Tieto- ja viestintätekniikan tutkinto-ohjelmaa"
+    field_of_study-en: "Degree Programme in Information and Communication Technology"
+    credits: 240
+    completed: 198.5
+  - school-fi: "Metropolia Ammattikorkeakoulu"
+    school-en: "Metropolia University of Applied Sciences"
+    start_date: 2023-03-06
+    end_date: 2025-04-29
+    degree-fi: "Insinööri (AMK)"
+    degree-en: "Bachelor of Engineering"
+    field_of_study-fi: "Tieto- ja viestintätekniikan tutkinto-ohjelma"
+    field_of_study-en: "Degree Programme in Information and Communication Technology"
+    credits: 240
+    completed: 240
+
+- volunteering:
+  - organization: "Hyvä erovanhemmuus ry"
+    start_date: 2019-06-16
+    end_date: 2024-03-01
+    role-fi: "Hallituksen puheenjohtaja"
+    role-en: "Spokesperson of the Board"
+  - organization: "Piraattipuolue r.p."
+    start_date: 2019-03-03
+    end_date: 2022-06-18
+    role-fi: "Puoluevaltuuston puheenjohtaja"
+    role-en: "Spokesperson of the Party Council"
+  - organization: "Piraattipuolue r.p."
+    start_date: 2019-08-06
+    end_date: 2022-10-06
+    role-fi: "Verkkopalvelutiimin vetäjä"
+    role-en: "Leader of the Network Services Team"

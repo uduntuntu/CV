@@ -2,6 +2,7 @@
 
 - jobs:
   - company: "Suomen Rauhanliitto – Finlands Fredsförbund ry"
+    id: "Rauhanliitto"
     start_date: 2021-09-30
     end_date: 2024-03-31
     title-fi: "Verkon pääkäyttäjä"
@@ -20,6 +21,7 @@
 - schools:
   - school-fi: "Metropolia Ammattikorkeakoulu"
     school-en: "Metropolia University of Applied Sciences"
+    id: "Metropolia"
     start_date: 2015-08-20
     end_date: 2021-03-03
     degree-fi: "Insinööri (AMK)"
@@ -41,16 +43,19 @@
 
 - volunteering:
   - organization: "Hyvä erovanhemmuus ry"
+    id: "Hyvä erovanhemmuus"
     start_date: 2019-06-16
     end_date: 2024-03-01
     role-fi: "Hallituksen puheenjohtaja"
     role-en: "Spokesperson of the Board"
   - organization: "Piraattipuolue r.p."
+    id: "Piraattipuolue-1"
     start_date: 2019-03-03
     end_date: 2022-06-18
     role-fi: "Puoluevaltuuston puheenjohtaja"
     role-en: "Spokesperson of the Party Council"
   - organization: "Piraattipuolue r.p."
+    id: "Piraattipuolue-2"
     start_date: 2019-08-06
     end_date: 2022-10-06
     role-fi: "Verkkopalvelutiimin vetäjä"

@@ -61,11 +61,33 @@ def arc(radius, width, color, text_color, opacity=1, start=start_date, end=end_d
     large_arc = bool(angle(start, end) > 180)
     sweep = True
 
-    a = svg.Arc(rx=radius, ry=radius, angle=0, large_arc=large_arc,sweep=sweep, x=x2, y=y2)
+    a = svg.Arc(
+        rx=radius, ry=radius, angle=0, 
+        large_arc=large_arc,sweep=sweep, 
+        x=x2, y=y2
+    )
 
     a = f"M {x1:.1f} {y1:.1f} {a}"
 
-    yield svg.Path(d=a, stroke=color,stroke_width=width,fill='none', opacity=opacity, transform=f"rotate({rotation})")
+    yield svg.Path(
+        d=a, id="a", stroke=color,stroke_width=width,fill='none', opacity=opacity, 
+        transform=f"rotate({rotation})"
+    )
+    
+    yield svg.Text(
+            text = svg.TextPath(
+                href=f"#a",
+                startOffset="50%",
+                text=f"{text}",
+            ),
+            font_size=4,
+            font_family="sans-serif",
+            fill=text_color,
+            text_anchor="middle",
+            dominant_baseline="middle",
+            transform=f"rotate({rotation})"
+        )
+    
 # Background
 elements.extend(circle(0,0,100,1,'#000000','#000000'))
 
@@ -77,6 +99,7 @@ elements.extend(circle(0,0,60,19,'#ffffff','none'))
 elements.extend(circle(0,0,40,19,'#FCF434','none'))
 elements.extend(circle(0,0,29.5,0,'none','#dddddd'))
 
+
 # Arcs
 elements.extend(
     arc(
@@ -87,14 +110,6 @@ elements.extend(
     )
 )
 
-elements.extend(
-    arc(
-        95,9,"#2c2c2c","#cccccc",0.75,
-        validate_date("2001-01-01"), 
-        validate_date("2001-12-31"),
-        "2001"
-    )
-)
 
 canvas = svg.SVG(
     viewBox=svg.ViewBoxSpec(-max_x, -max_y, 2 * max_x, 2 * max_y),

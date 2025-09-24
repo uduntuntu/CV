@@ -5,6 +5,8 @@
   <circle stroke="#ffffff" stroke-width="19" opacity="1.0" cx="0" cy="0" r="60" fill="none"/>
   <circle stroke="#FCF434" stroke-width="19" opacity="1.0" cx="0" cy="0" r="40" fill="none"/>
   <circle stroke="none" stroke-width="0" opacity="1.0" cx="0" cy="0" r="29.5" fill="#dddddd"/>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" transform="rotate(360.0)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.75" transform="rotate(13.875315922493682)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="a" transform="rotate(360.0)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="4" fill="#cccccc" transform="rotate(360.0)">
+    <textPath startOffset="50%" href="#a">2000</textPath>
+  </text>
 </svg>

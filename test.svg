@@ -1,4 +1,9 @@
 <?xml version="1.0" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
-  <circle stroke="#d0d0d0" stroke-width="15" cx="0" cy="0" r="80" fill="none"/>
+  <circle stroke="none" stroke-width="0" opacity="1.0" cx="0" cy="0" r="100" fill="#000000"/>
+  <circle stroke="#2C2C2C" stroke-width="9" opacity="0.7" cx="0" cy="0" r="95" fill="none"/>
+  <circle stroke="#9C59D1" stroke-width="19" opacity="1.0" cx="0" cy="0" r="80" fill="none"/>
+  <circle stroke="#ffffff" stroke-width="19" opacity="1.0" cx="0" cy="0" r="60" fill="none"/>
+  <circle stroke="#FCF434" stroke-width="19" opacity="1.0" cx="0" cy="0" r="40" fill="none"/>
+  <circle stroke="none" stroke-width="0" opacity="1.0" cx="0" cy="0" r="29.5" fill="#dddddd"/>
 </svg>

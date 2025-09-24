@@ -34,20 +34,31 @@ def arc_length(start_date = date.fromisoformat('2000-01-01'),
     else:
         return math.degrees(angle)
 
-print (days_between(validate_date("2020-01-01"),validate_date("2025-08-20")), 
-       '/', days_between(), "d")
-print (years_between(validate_date("2020-01-01"),validate_date("2025-08-20")), 
-       '/', math.ceil(days_between() / 365.25) ,"a")
-print (arc_length(validate_date("2020-01-01"),validate_date("2025-08-20")), "degrees.")
+#print (days_between(validate_date("2020-01-01"),validate_date("2025-08-20")), 
+#       '/', days_between(), "d")
+#print (years_between(validate_date("2020-01-01"),validate_date("2025-08-20")), 
+#       '/', math.ceil(days_between() / 365.25) ,"a")
+#print (arc_length(validate_date("2020-01-01"),validate_date("2025-08-20")), "degrees.")
 
 
-def circle(x, y, radius, width, color):
+def circle(x, y, radius, width, color, fill, opacity=1.0):
     yield svg.Circle(
         cx = x, cy = y, r = radius, 
-        fill = 'none', stroke = color, stroke_width = width,
+        fill = fill, stroke = color, stroke_width = width,
+        opacity=opacity
     )
 
-circles.extend(circle(0,0,80,15,'#d0d0d0'))
+# Background
+circles.extend(circle(0,0,100,0,'none','#000000'))
+
+
+# Arcs background
+circles.extend(circle(0,0,95,9,'#2C2C2C','none',0.7))
+circles.extend(circle(0,0,80,19,'#9C59D1','none'))
+circles.extend(circle(0,0,60,19,'#ffffff','none'))
+circles.extend(circle(0,0,40,19,'#FCF434','none'))
+circles.extend(circle(0,0,29.5,0,'none','#dddddd'))
+
 
 canvas = svg.SVG(
     viewBox=svg.ViewBoxSpec(-max_x, -max_y, 2 * max_x, 2 * max_y),

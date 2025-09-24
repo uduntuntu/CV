@@ -24,7 +24,7 @@ def years_between(start_date = date.fromisoformat('2000-01-01'),
                  end_date = date(date.today().year,12,31)):
     return math.ceil((end_date - start_date).days / 365.25)
 
-def arc_length(start_date = date.fromisoformat('2000-01-01'), 
+def angle(start_date = date.fromisoformat('2000-01-01'), 
                  end_date = date(date.today().year,12,31)):
     # print(days_between(start_date, end_date))
     angle = 2 * math.pi * (days_between(start_date, end_date)) / days_between()
@@ -34,11 +34,11 @@ def arc_length(start_date = date.fromisoformat('2000-01-01'),
     else:
         return math.degrees(angle)
 
-#print (days_between(validate_date("2020-01-01"),validate_date("2025-08-20")), 
+#print (days_between(validate_date("2020-01-01"),validate_date("2025-09-24")), 
 #       '/', days_between(), "d")
-#print (years_between(validate_date("2020-01-01"),validate_date("2025-08-20")), 
+#print (years_between(validate_date("2020-01-01"),validate_date("2025-09-24")), 
 #       '/', math.ceil(days_between() / 365.25) ,"a")
-#print (arc_length(validate_date("2020-01-01"),validate_date("2025-08-20")), "degrees.")
+print (angle(validate_date("2020-01-01"),date.today()), "degrees.")
 
 
 def circle(x, y, radius, width, color, fill, opacity=1.0):

@@ -133,12 +133,20 @@
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="4" fill="#cccccc">
     <textPath startOffset="50%" href="#job_6">Lähitaksi</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school_1" transform="rotate(334.7893850042123)" d="M 60.0 0.0 A 60 60 0 0 1 57.816294465164674 16.039828375558407" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="school_1" transform="rotate(334.7893850042123)" d="M 60.0 0.0 A 60 60 0 0 1 57.816294465164674 16.039828375558407" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="4" fill="#cccccc">
     <textPath startOffset="50%" href="#school_1"/>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school_2" transform="rotate(216.43218197135636)" d="M 60.0 0.0 A 60 60 0 0 1 -15.580266318906613 57.94182687344217" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="school_2" transform="rotate(216.43218197135636)" d="M 60.0 0.0 A 60 60 0 0 1 -15.580266318906613 57.94182687344217" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="4" fill="#cccccc">
     <textPath startOffset="50%" href="#school_2">Metropolia ammattikorkeakoulu</textPath>
+  </text>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="volunteering_1" transform="rotate(334.7893850042123)" d="M 60.0 0.0 A 60 60 0 0 1 57.816294465164674 16.039828375558407" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="4" fill="#cccccc">
+    <textPath startOffset="50%" href="#volunteering_1"/>
+  </text>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="volunteering_2" transform="rotate(216.43218197135636)" d="M 60.0 0.0 A 60 60 0 0 1 -15.580266318906613 57.94182687344217" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="4" fill="#cccccc">
+    <textPath startOffset="50%" href="#volunteering_2">Metropolia ammattikorkeakoulu</textPath>
   </text>
 </svg>

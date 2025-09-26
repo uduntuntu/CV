@@ -5,4 +5,4 @@ In later stages I could implement some website generating code as well as CV PDF
 
 Feel free to use the code. The code part is MIT License. 
 
-CV.yaml is not allowed to reuse in any context.
+CV.yaml is not allowed to reuse in any context. Currently it's heavily under development and not accurate at all.

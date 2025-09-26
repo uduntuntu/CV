@@ -14,7 +14,9 @@ def validate_date(iso_date="2000-01-01"):
     except:
         print("Not valid ISO 8601 format date, try again:")
         iso_date = validate_date(input())
-    return date.fromisoformat(iso_date)
+    if (date.fromisoformat(iso_date) < date.fromisoformat("2000-01-01")): 
+        return date.fromisoformat("2000-01-01")
+    else: return date.fromisoformat(iso_date)
 
 # defaults
 start_date = validate_date("2000-01-01")
@@ -80,7 +82,7 @@ def arc(radius, width, color, text_color, opacity=1, start=start_date, end=end_d
                 startOffset="50%",
                 text=f"{text}",
             ),
-            font_size=4,
+            font_size=3,
             font_family="sans-serif",
             fill=text_color,
             text_anchor="middle",
@@ -114,7 +116,7 @@ for year in range(2000, date.today().year + 1):
     )
 
 class Arc:
-    def __init__(self, start, end, text="", id="arc", radius=80, width=19, opacity=0.35, color="#2c2c2c", text_color="#cccccc"):
+    def __init__(self, start, end, text="", id="arc", radius=80, width=19, opacity=0.35, color="#2c2c2c", text_color="#ffffff"):
         self.start = validate_date(start)
         self.end = validate_date(end)
         self.text = text
@@ -140,95 +142,135 @@ class Arc:
         return f"{self.__class__.__name__}(start={self.start!r}, end={self.end!r}, text={self.text!r}, id={self.id!r})"
 
 class Job(Arc):
-    def __init__(self, start, end, text="", id="job", radius=80, width=19, opacity=0.35, color="#2c2c2c", text_color="#cccccc"):
+    def __init__(self, start, end, text="", id="job", radius=80, width=19, opacity=0.35, color="#2c2c2c", text_color="#ffffff"):
         super().__init__(start, end, text, id, radius, width, opacity, color, text_color)
+        self.id=f"job{id}"
 
 class School(Arc):
-    def __init__(self, start, end, text="", id="school", radius=60, width=19, opacity=0.35, color="#2c2c2c", text_color="#cccccc"):
-        super().__init__(start, end, text, id, radius, width, color, opacity, text_color)
+    def __init__(self, start, end, text="", id="school", radius=60, width=19, opacity=0.65, color="#2c2c2c", text_color="#ffffff"):
+        super().__init__(start, end, text, id, radius, width, opacity, color, text_color)
+        self.id=f"school{id}"
 
 class Volunteering(Arc):
-    def __init__(self, start, end, text="", id="vol", radius=40, width=19, opacity=0.35, color="#2c2c2c", text_color="#cccccc"):
-        super().__init__(start, end, text, id, radius, width, color, opacity, text_color)
+    def __init__(self, start, end, text="", id="volunteering", radius=40, width=19, opacity=0.15, color="#2c2c2c", text_color="#2c2c2c"):
+        super().__init__(start, end, text, id, radius, width, opacity, color, text_color)
+        self.id=f"volunteering{id}"
 
 
 # Job arcs
 jobs = []
-jobs += Job("2019-09-30","2024-03-31",
-        "Suomen Rauhanliitto","job_1",
-        radius=85.5,width=9
+jobs += Job(
+    "2019-09-30","2024-03-31",
+    "Suomen Rauhanliitto","1",
+    radius=85.5,width=9
 )
 
-jobs += Job("2018-10-04","2018-12-17",
-        "2","job_2"
+jobs += Job(
+    "2018-10-04","2018-12-17",
+    "2","2"
 )
 
-jobs += Job(f"2017-12-07","2018-01-26",
-        "3","job_3"
-)
-
-
-jobs += Job("2013-06-10","2014-06-10",
-        "Barona IT","job_4"
-)
-
-jobs += Job("2023-07-01","2023-09-23",
-        "5","job_5", 
-        radius=75.5,width=9
-)
-
-jobs.extend(
-    arc(
-        75.5,9,"#2c2c2c","#cccccc",0.35,
-        validate_date(f"2022-06-14"),
-        validate_date(f"2023-06-14"),
-        "Lähitaksi","job_6"
-    )
+jobs += Job(
+    "2017-12-07","2018-01-26",
+    "3","3"
 )
 
 
-elements.extend(jobs)
+jobs += Job(
+    "2013-06-10","2014-06-10",
+    "Barona IT","4"
+)
+
+jobs += Job(
+    "2023-07-01","2023-09-23",
+    "5","5", 
+    radius=75.5,width=9
+)
+
+jobs += Job(
+    "2022-06-14","2023-06-14",
+    "Lähitaksi","6", 
+    radius=75.5,width=9
+)
+
+jobs += Job(
+    "2006-12-27","2007-05-31",
+    "7",id="7"
+)
+
+jobs += Job(
+    "2005-10-04","2006-12-19",
+    "HK Ruokatalo", id="8"
+)
+jobs += Job(
+    "2002-01-15","2005-06-19",
+    "varusmiespalvelus", id="9"
+)
 
 # Schools arcs
 schools = []
-schools.extend(
-    arc(
-            60,19,"#2c2c2c","#cccccc",0.35,
-            validate_date(f"2024-03-06"), 
-            validate_date(f"2025-04-19"),
-            "",f"school_1"
-        )
+schools += School(
+    "2024-03-06","2025-04-19",
+    "1","1"
 )
 
-schools.extend(
-    arc(
-            60,19,"#2c2c2c","#cccccc",0.35,
-            validate_date(f"2015-08-19"), 
-            validate_date(f"2023-03-21"),
-            "Metropolia ammattikorkeakoulu",f"school_2"
-        )
+schools += School(
+    "2015-08-19","2023-03-21",
+    "Metropolia ammattikorkeakoulu","2"
 )
-elements.extend(schools)
+
+schools += School(
+    "2010-10-05","2011-06-21",
+    "TAKK","3"
+)
+
+schools += School(
+    "2008-08-20","2010-03-15",
+    "OAKK","4"
+)
+
+schools += School(
+    "2007-08-20","2008-06-01",
+    "5",id="5"
+)
+
+schools += School(
+    "2002-09-04","2003-01-05",
+    "6",id="6"
+)
+
+schools += School(
+    "1999-08-20","2002-06-02",
+    "Raahen lukio","7"
+)
 
 # Volunteering arcs
 volunteerings = []
-volunteerings.extend(
-    arc(
-            60,19,"#2c2c2c","#cccccc",0.35,
-            validate_date(f"2024-03-06"), 
-            validate_date(f"2025-04-19"),
-            "",f"volunteering_1"
-        )
+volunteerings += Volunteering(
+    "2019-06-23","2021-12-27",
+    "HyvE ry", id="1",
+    radius=46.5, width = 6
 )
 
-volunteerings.extend(
-    arc(
-            60,19,"#2c2c2c","#cccccc",0.35,
-            validate_date(f"2015-08-19"), 
-            validate_date(f"2023-03-21"),
-            "Metropolia ammattikorkeakoulu",f"volunteering_2"
-        )
+volunteerings += Volunteering(
+    "2019-03-03","2023-06-17",
+    "Piraattipuolue", id="2",
+    radius=40, width=6
 )
+
+volunteerings += Volunteering(
+    "2019-08-16","2024-12-27",
+    "Piraattipuolue", id="3",
+    radius=33.5, width=6
+)
+
+volunteerings += Volunteering(
+    "2009-01-13","2018-02-17",
+    "Kapsi Internet-käyttäjät ry", id="4",
+)
+
+elements.extend(jobs)
+elements.extend(schools)
 elements.extend(volunteerings)
 
 canvas = svg.SVG(

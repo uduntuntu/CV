@@ -141,7 +141,7 @@
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job8">HK Ruokatalo</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job9" transform="rotate(28.24347093513058)" d="M 80.0 0.0 A 80 80 0 0 1 54.12305679303445 58.912602415594975" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job9" transform="rotate(42.08087615838248)" d="M 80.0 0.0 A 80 80 0 0 1 66.64229057190616 44.258390247834676" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job9">varusmiespalvelus</textPath>
   </text>
@@ -201,11 +201,11 @@
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c">
     <textPath startOffset="50%" href="#volunteering1">HyvE ry</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering2" transform="rotate(265.41280539174386)" d="M 40.0 0.0 A 40 40 0 0 1 20.35801156113582 34.431836507462975" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering2" transform="rotate(265.41280539174386)" d="M 40.0 0.0 A 40 40 0 0 1 28.002161456947125 28.563594902236392" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c">
     <textPath startOffset="50%" href="#volunteering2">Piraattipuolue</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering3" transform="rotate(271.70598146588037)" d="M 33.5 0.0 A 33.5 33.5 0 0 1 9.062317144414674 32.250959799268735" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering3" transform="rotate(271.70598146588037)" d="M 33.5 0.0 A 33.5 33.5 0 0 1 16.531974486977678 29.136640498896213" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c">
     <textPath startOffset="50%" href="#volunteering3">Piraattipuolue</textPath>
   </text>

@@ -205,7 +205,7 @@ jobs += Job(
 )
 
 jobs += Job(
-    "2002-01-15","2005-06-19",
+    "2003-01-15","2005-06-19",
     "varusmiespalvelus", id="9"
 )
 
@@ -287,13 +287,13 @@ volunteerings += Volunteering(
 )
 
 volunteerings += Volunteering(
-    "2019-03-03","2023-06-17",
+    "2019-03-03","2022-06-17",
     "Piraattipuolue", id="2",
     radius=40, width=6
 )
 
 volunteerings += Volunteering(
-    "2019-08-16","2024-12-27",
+    "2019-08-16","2023-12-27",
     "Piraattipuolue", id="3",
     radius=33.5, width=6
 )

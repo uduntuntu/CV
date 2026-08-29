@@ -1,8 +1,8 @@
 # CV — agent entry
 
-Shared agent preferences live in the [`.agents`](.agents) git submodule ([uduntuntu/AI](https://github.com/uduntuntu/AI)).
+Shared agent preferences live in the [`.cursor`](.cursor) git submodule ([uduntuntu/AI](https://github.com/uduntuntu/AI)).
 
-**Follow [`.agents/AGENTS.md`](.agents/AGENTS.md) as the authoritative preferences for this repository** (modes, coding, testing, instruction maintenance). Also use files under `.agents/preferences/` and `.agents/rules/` when relevant.
+**Follow [`.cursor/AGENTS.md`](.cursor/AGENTS.md) as the authoritative preferences for this repository** (modes, coding, testing, instruction maintenance). Also use files under `.cursor/preferences/` and `.cursor/rules/` when relevant.
 
 ## This project
 
@@ -13,5 +13,5 @@ Shared agent preferences live in the [`.agents`](.agents) git submodule ([uduntu
 Update the submodule after PRs land on `uduntuntu/AI`:
 
 ```text
-git submodule update --remote .agents
+git submodule update --remote .cursor
 ```

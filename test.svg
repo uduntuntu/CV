@@ -1,216 +1,228 @@
 <?xml version="1.0" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
   <circle stroke="#000000" stroke-width="1" opacity="1.0" cx="0" cy="0" r="100" fill="#000000"/>
+  <image href="./utu.jpg" x="-31.0" y="-31.0" width="62" height="62" preserveAspectRatio="xMidYMid slice"/>
   <circle stroke="#9C59D1" stroke-width="19" opacity="1.0" cx="0" cy="0" r="80" fill="none"/>
   <circle stroke="#ffffff" stroke-width="19" opacity="1.0" cx="0" cy="0" r="60" fill="none"/>
   <circle stroke="#FCF434" stroke-width="19" opacity="1.0" cx="0" cy="0" r="40" fill="none"/>
-  <circle stroke="none" stroke-width="0" opacity="1.0" cx="0" cy="0" r="29.5" fill="#dddddd"/>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2000" transform="rotate(360.0)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="1999" transform="rotate(0.0)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
+    <textPath startOffset="50%" href="#1999">1999</textPath>
+  </text>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2000" transform="rotate(12.849599061216509)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2000">2000</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2001" transform="rotate(13.875315922493682)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2001" transform="rotate(25.734402503422647)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2001">2001</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2002" transform="rotate(27.71272114574558)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2002" transform="rotate(38.58400156463916)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2002">2002</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2003" transform="rotate(41.55012636899747)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2003" transform="rotate(51.433600625855654)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2003">2003</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2004" transform="rotate(55.38753159224937)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2004" transform="rotate(64.28319968707217)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2004">2004</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2005" transform="rotate(69.26284751474304)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2005" transform="rotate(77.16800312927832)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2005">2005</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2006" transform="rotate(83.10025273799494)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2006" transform="rotate(90.01760219049481)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2006">2006</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2007" transform="rotate(96.93765796124684)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2007" transform="rotate(102.86720125171131)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2007">2007</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2008" transform="rotate(110.77506318449873)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2008" transform="rotate(115.71680031292783)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2008">2008</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2009" transform="rotate(124.65037910699242)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2009" transform="rotate(128.60160375513397)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2009">2009</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2010" transform="rotate(138.4877843302443)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2010" transform="rotate(141.45120281635047)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2010">2010</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2011" transform="rotate(152.32518955349622)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2011" transform="rotate(154.30080187756698)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2011">2011</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2012" transform="rotate(166.1625947767481)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2012" transform="rotate(167.1504009387835)" d="M 92.6 21.1 A 95 95 0 0 0 95 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#2012">2012</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2013" transform="rotate(180.03791069924176)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2013" transform="rotate(180.03520438098963)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2013">2013</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2014" transform="rotate(193.87531592249368)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2014" transform="rotate(192.88480344220616)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2014">2014</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2015" transform="rotate(207.71272114574558)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2015" transform="rotate(205.73440250342261)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2015">2015</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2016" transform="rotate(221.55012636899747)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2016" transform="rotate(218.58400156463918)" d="M 95.0 0.0 A 95 95 0 0 1 92.62093416574912 21.12729405920141" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2016">2016</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2017" transform="rotate(235.42544229149118)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2017" transform="rotate(231.46880500684532)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2017">2017</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2018" transform="rotate(249.26284751474307)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2018" transform="rotate(244.3184040680618)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2018">2018</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2019" transform="rotate(263.10025273799494)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2019" transform="rotate(257.1680031292783)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2019">2019</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2020" transform="rotate(276.9376579612468)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2020" transform="rotate(270.0176021904948)" d="M 95.0 0.0 A 95 95 0 0 1 92.62093416574912 21.12729405920141" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2020">2020</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2021" transform="rotate(290.81297388374054)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2021" transform="rotate(282.90240563270095)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2021">2021</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2022" transform="rotate(304.65037910699243)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2022" transform="rotate(295.7520046939175)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2022">2022</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2023" transform="rotate(318.4877843302443)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2023" transform="rotate(308.60160375513397)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2023">2023</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2024" transform="rotate(332.3251895534962)" d="M 95.0 0.0 A 95 95 0 0 1 92.24294303723134 22.720903587447694" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2024" transform="rotate(321.4512028163505)" d="M 95.0 0.0 A 95 95 0 0 1 92.62093416574912 21.12729405920141" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2024">2024</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2025" transform="rotate(346.20050547598987)" d="M 95.0 0.0 A 95 95 0 0 1 92.25795650532305 22.65986455082907" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.65" id="2025" transform="rotate(334.3360062585566)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
     <textPath startOffset="50%" href="#2025">2025</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job1" transform="rotate(273.41196293176074)" d="M 85.5 0.0 A 85.5 85.5 0 0 1 39.71070976493109 75.71862076111402" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="2026" transform="rotate(347.1856053197731)" d="M 95.0 0.0 A 95 95 0 0 1 92.63389797461184 21.07038077561016" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#cccccc">
+    <textPath startOffset="50%" href="#2026">2026</textPath>
+  </text>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job1" transform="rotate(266.7435947584588)" d="M 85.5 0.0 A 85.5 85.5 0 0 1 45.46491055273245 72.40988819513561" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job1">Suomen Rauhanliitto</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job2" transform="rotate(259.72620050547596)" d="M 85.5 0.0 A 85.5 85.5 0 0 1 85.39753132592296 4.184691558287979" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job2" transform="rotate(254.03481322120086)" d="M 85.5 0.0 A 85.5 85.5 0 0 1 85.41163650241391 3.8861742085904956" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job2">2</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job3" transform="rotate(248.31508003369837)" d="M 80.0 0.0 A 80 80 0 0 1 79.95622373416998 2.646183321569576" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job3" transform="rotate(243.43829454332092)" d="M 80.0 0.0 A 80 80 0 0 1 79.9622502567862 2.457342847690272" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job3">3</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job4" transform="rotate(186.10362257792755)" d="M 80.0 0.0 A 80 80 0 0 1 77.67826782082639 19.133392494692792" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job4" transform="rotate(185.6679053393311)" d="M 80.0 0.0 A 80 80 0 0 1 77.99657613957821 17.79140552353803" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job4">Barona IT</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job5" transform="rotate(325.34962089300757)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 75.38341516819084 4.194128941767941" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job5" transform="rotate(314.9735967142578)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 75.39946268591424 3.8950002150739578" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job5">5</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job6" transform="rotate(310.8677337826453)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 73.30886525590492 18.057139166866325" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job6" transform="rotate(301.5255231762175)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 73.60926873172693 16.790638962839015" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job6">Lähitaksi</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job7" transform="rotate(96.74810446503791)" d="M 80.0 0.0 A 80 80 0 0 1 79.57964035895769 8.190289392869571" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job7" transform="rotate(102.69117934676315)" d="M 79.6 7.6 A 80 80 0 0 0 80 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#job7">7</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job8" transform="rotate(79.72620050547599)" d="M 80.0 0.0 A 80 80 0 0 1 76.61832527712777 23.0137400638889" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job8" transform="rotate(86.88441228241736)" d="M 77.1 21.4 A 80 80 0 0 0 80 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#job8">HK Ruokatalo</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job9" transform="rotate(42.08087615838248)" d="M 80.0 0.0 A 80 80 0 0 1 66.64229057190616 44.258390247834676" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job9" transform="rotate(51.92646195971054)" d="M 68.4 41.4 A 80 80 0 0 0 80 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#job9">varusmiespalvelus</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job10" transform="rotate(116.5374894692502)" d="M 80.0 0.0 A 80 80 0 0 1 79.93696470703816 3.1751651021223655" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job10" transform="rotate(121.06786622335223)" d="M 79.9 2.9 A 80 80 0 0 0 80 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#job10">10</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job11" transform="rotate(162.78854254422916)" d="M 80.0 0.0 A 80 80 0 0 1 79.77252059030982 6.028678019980508" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job11" transform="rotate(164.01721103070605)" d="M 79.8 5.6 A 80 80 0 0 0 80 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#job11">11</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job12" transform="rotate(158.16343723673126)" d="M 80.0 0.0 A 80 80 0 0 1 79.94310991956964 3.0164841102858926" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job12" transform="rotate(159.72227654997064)" d="M 80.0 2.8 A 80 80 0 0 0 80 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#job12">12</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job13" transform="rotate(204.3386689132266)" d="M 80.0 0.0 A 80 80 0 0 1 79.77252059030982 6.028678019980508" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job13" transform="rotate(202.6012125953452)" d="M 80.0 0.0 A 80 80 0 0 1 79.8038265272524 5.599042025936752" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job13">13</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job14" transform="rotate(259.72620050547596)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 75.28531630710489 5.689564881356604" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job14" transform="rotate(254.03481322120086)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 75.31486128509445 5.28409591197781" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job14">14</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job15" transform="rotate(299.38079191238415)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 75.47084816403752 2.0978744959591507" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="9" opacity="0.35" id="job15" transform="rotate(290.85859573635827)" d="M 75.5 0.0 A 75.5 75.5 0 0 1 75.47486148641322 1.948148764016095" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#job15">15</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school1" transform="rotate(334.7893850042123)" d="M 60.0 0.0 A 60 60 0 0 1 57.816294465164674 16.039828375558407" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.35" id="job16" transform="rotate(350.17797770389205)" d="M 80.0 0.0 A 80 80 0 0 1 79.50578305020554 8.878652013321009" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+    <textPath startOffset="50%" href="#job16">16</textPath>
+  </text>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school1" transform="rotate(323.7394875806767)" d="M 60.0 0.0 A 60 60 0 0 1 58.115356377639756 14.919964916176136" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#school1">1</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school2" transform="rotate(216.43218197135636)" d="M 60.0 0.0 A 60 60 0 0 1 -15.580266318906613 57.94182687344217" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school2" transform="rotate(213.8314101310385)" d="M 60.0 0.0 A 60 60 0 0 1 -7.884871265055022 59.479650344748244" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
     <textPath startOffset="50%" href="#school2">Metropolia ammattikorkeakoulu</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school3" transform="rotate(148.98904802021903)" d="M 60.0 0.0 A 60 60 0 0 1 59.121107060590916 10.232042803377377" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school3" transform="rotate(151.20281635047917)" d="M 59.2 9.5 A 60 60 0 0 0 60 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#school3">TAKK</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school4" transform="rotate(119.5703454085931)" d="M 60.0 0.0 A 60 60 0 0 1 55.753791318444115 22.170132016282306" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school4" transform="rotate(123.88421670252299)" d="M 56.3 20.7 A 60 60 0 0 0 60 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#school4">OAKK</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school5" transform="rotate(105.69502948609941)" d="M 60.0 0.0 A 60 60 0 0 1 58.92888713995304 11.286552194832423" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school5" transform="rotate(110.99941326031683)" d="M 59.1 10.5 A 60 60 0 0 0 60 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#school5">5</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school6" transform="rotate(37.03875315922493)" d="M 60.0 0.0 A 60 60 0 0 1 59.80140419241459 4.877710181576928" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school6" transform="rotate(47.244279288089174)" d="M 59.8 4.5 A 60 60 0 0 0 60 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#school6">6</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school7" transform="rotate(360.0)" d="M 60.0 0.0 A 60 60 0 0 1 50.04750908035229 33.09451366695173" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.65" id="school7" transform="rotate(8.132212008605515)" d="M 48.7 35.1 A 60 60 0 0 0 60 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#ffffff" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#school7">Raahen lukio</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering1" transform="rotate(269.6588037068239)" d="M 46.5 0.0 A 46.5 46.5 0 0 1 38.18250169822805 26.539528331619085" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering1" transform="rotate(263.258361040485)" d="M 46.5 0.0 A 46.5 46.5 0 0 1 39.29703138583914 24.8594715201344" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c">
     <textPath startOffset="50%" href="#volunteering1">HyvE ry</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering2" transform="rotate(265.41280539174386)" d="M 40.0 0.0 A 40 40 0 0 1 28.002161456947125 28.563594902236392" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering2" transform="rotate(259.315470369646)" d="M 40.0 0.0 A 40 40 0 0 1 29.577882025477425 26.92858880236652" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c">
     <textPath startOffset="50%" href="#volunteering2">Piraattipuolue</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering3" transform="rotate(271.70598146588037)" d="M 33.5 0.0 A 33.5 33.5 0 0 1 16.531974486977678 29.136640498896213" fill="none"/>
+  <path stroke="#2c2c2c" stroke-width="6" opacity="0.15" id="volunteering3" transform="rotate(265.1593976139253)" d="M 33.5 0.0 A 33.5 33.5 0 0 1 18.67680087115133 27.810557513637892" fill="none"/>
   <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c">
     <textPath startOffset="50%" href="#volunteering3">Piraattipuolue</textPath>
   </text>
-  <path stroke="#2c2c2c" stroke-width="19" opacity="0.15" id="volunteering4" transform="rotate(125.10530749789385)" d="M 40.0 0.0 A 40 40 0 0 1 -23.477137757027858 32.38555237660054" fill="none"/>
-  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c">
+  <path stroke="#2c2c2c" stroke-width="19" opacity="0.15" id="volunteering4" transform="rotate(129.02405632700956)" d="M -18.1 35.7 A 40 40 0 0 0 40 0.0" fill="none"/>
+  <text dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="3" fill="#2c2c2c" transform="scale(-1 -1), rotate(180)">
     <textPath startOffset="50%" href="#volunteering4">Kapsi Internet-käyttäjät ry</textPath>
   </text>
 </svg>
